@@ -14,7 +14,33 @@ function years() {
 years();
 
 var p = 2;
-const p = 3; // this will cause an error because you cannot reassign a value to a constant variable, this only works within scope.
+//const p = 3; // this will cause an error because you cannot reassign a value to a constant variable, this only works within scope.
 //learn datatype conversion, type coercion, and type checking
 //what is bulk bounty?
 //what is a live server?
+
+let example = "hello world";
+example = 42;
+console.log(example); // this will print 42 because the variable example is reassigned to a new value, this is called type coercion, it is the automatic conversion of values from one data type to another, in this case from a string to a number.
+
+console.log(true == "true")
+
+for (i = 0; i <= 5; i++){
+   console.log(i)
+}
+
+let a = 6;
+while (a <= 10) {
+   console.log(a)
+   a++
+}
+
+let grade = prompt("Enter Score: ");
+
+if (grade >= "50"){
+   console.log("Pass")
+} else if (grade >= "40"){
+   console.log("Weak pass")
+} else {
+   console.log("fail")
+}

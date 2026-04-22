@@ -1,3 +1,4 @@
+/*
 //for loop
 for (let a = 0; a < 10; a++) {
 	console.log("Inside for loop", a);
@@ -35,6 +36,14 @@ do{
 	i++
 }
 while (i < 5) {
-	console.log(i);
+	//console.log(i);
 	i++
+}
+*/
+
+const password = "passawawa";
+if (password.length > 8) {
+	console.log("This password is strong");
+} else {
+	console.log("Weak password")
 }
