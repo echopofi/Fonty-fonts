@@ -24,7 +24,7 @@ console.log(sum)
 
 let shoppingCart = [];
 shoppingCart.push("Bread", "Milk", "Eggs", "Butter", "Cheese")
-console.log(`New shopping cart: ${shoppingCart}`)
+console.log(`Full shopping cart: ${shoppingCart}`)
 shoppingCart.splice(2, 1)
 console.log(`After splicing: ${shoppingCart}`)
 shoppingCart.pop()

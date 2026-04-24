@@ -13,3 +13,10 @@ switch (value) {
     default:
         console.log("Boom!!!")
 }
+let d = []
+let f = Array.from("Waterfalls")
+f.push(455)
+console.log(f.join("/"), typeof(f))
+
+let [a, ...b] = Array.from(1234456677)
+console.log(a,b)
