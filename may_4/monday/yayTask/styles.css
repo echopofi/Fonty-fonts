@@ -15,7 +15,8 @@ h1 {
 input {
     width: 300px;
     display: block;
-    margin: 15px 0;
+    margin: auto;
+    margin-top: 20px;
 }
 
 #bold {

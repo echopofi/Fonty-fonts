@@ -6,13 +6,19 @@ const h2 = document.querySelector("#bold")
 const italic = document.querySelector("#italic")
 
 body.style.backgroundColor = "lightblue";
+body.style.textAlign = "center";
+//body.style.alignContent = "center";
+
+
 h1.style.fontFamily = "Arial, sans-serif";
-h1.style.marginTop= "10px";
+//h1.style.marginTop= "10px";
+
 
 input.style.padding = "10px";
 input.style.fontSize = "16px";
 input.style.border = "2px solid #ccc";
 input.style.borderRadius = "9px";
+input.style.alignContent = "center";
 
 
 
