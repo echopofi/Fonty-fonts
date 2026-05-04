@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/may_4/monday/yayTask/$1"
+    }
+  ]
+}
