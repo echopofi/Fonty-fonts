@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@source "../build/";
+
+.modal {
+  @apply hidden fixed inset-0 bg-black/45 z-50 justify-center items-center p-5;
+}
+
+.modal.active {
+  @apply flex;
+}
+
+@media (max-width: 480px) {
+  body {
+    @apply p-3;
+  }
+  header {
+    @apply px-[18px] py-4;
+  }
+  header h1 {
+    @apply text-lg;
+  }
+  section {
+    @apply px-[18px] py-4;
+  }
+}
