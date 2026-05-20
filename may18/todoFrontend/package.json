@@ -1,0 +1,12 @@
+{
+  "name": "todo-frontend",
+  "version": "1.0.0",
+  "description": "Todo App with Tailwind CSS",
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0"
+  }
+}
